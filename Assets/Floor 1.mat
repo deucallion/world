@@ -9,14 +9,29 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Floor 1
   m_Shader: {fileID: 4800000, guid: c933bce24d9d90747a5def016febd042, type: 3}
-  m_ShaderKeywords: POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE POI_LIGHT_DATA_ADDITIVE_ENABLE
-    POI_VERTEXLIGHT_ON VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIMSTYLE_POIYOMI
+  m_ShaderKeywords: FINALPASS MOCHIE_PBR POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE
+    POI_LIGHT_DATA_ADDITIVE_ENABLE POI_VERTEXLIGHT_ON VIGNETTE_MASKED _LIGHTINGMODE_FLAT
+    _RIMSTYLE_POIYOMI
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2450
   stringTagMap:
     RenderType: TransparentCutout
+    _MochieMetallicMaps_texPack_a_channel: 4
+    _MochieMetallicMaps_texPack_a_fallback: 1
+    _MochieMetallicMaps_texPack_a_inverted: False
+    _MochieMetallicMaps_texPack_b_channel: 4
+    _MochieMetallicMaps_texPack_b_fallback: 1
+    _MochieMetallicMaps_texPack_b_inverted: False
+    _MochieMetallicMaps_texPack_g_channel: 4
+    _MochieMetallicMaps_texPack_g_fallback: 1
+    _MochieMetallicMaps_texPack_g_guid: 7fc0747cabd370843af582d49763ddb4
+    _MochieMetallicMaps_texPack_g_inverted: true
+    _MochieMetallicMaps_texPack_lastConfirmTime: 1653659029
+    _MochieMetallicMaps_texPack_r_channel: 4
+    _MochieMetallicMaps_texPack_r_fallback: 1
+    _MochieMetallicMaps_texPack_r_inverted: False
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -54,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ebff62664fd5c2445883e13db51e469b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ClearCoatFallback:
@@ -126,7 +141,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6f7e1fd0e3b9f3a489d95e2d03fdb239, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DissolveDetailNoise:
@@ -258,7 +273,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingAOMaps:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 603444204f7e4774e9415090e199cc24, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightingDetailShadowMaps:
@@ -274,7 +289,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d5bfbe51888de2d4db29d22225ad3948, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Matcap:
@@ -310,7 +325,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieMetallicMaps:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bf7fb092f735a8845800caba77906b34, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MochieReflCube:
@@ -736,11 +751,11 @@ Material:
     - _DepthMaskUV: 0
     - _DepthTextureUV: 0
     - _DetailBrightness: 1
-    - _DetailEnabled: 0
+    - _DetailEnabled: 1
     - _DetailMaskUV: 0
     - _DetailNormalMapScale: 1
     - _DetailNormalMapUV: 0
-    - _DetailTexIntensity: 1
+    - _DetailTexIntensity: 2.22
     - _DetailTexUV: 0
     - _DetailTintThemeIndex: 0
     - _DisableDirectionalInAdd: 1
@@ -1136,7 +1151,7 @@ Material:
     - _Metallic: 0
     - _Mirror: 0
     - _MirrorTextureUV: 0
-    - _MochieBRDF: 0
+    - _MochieBRDF: 1
     - _MochieForceFallback: 0
     - _MochieGSAAEnabled: 1
     - _MochieLitFallback: 0
@@ -1437,12 +1452,12 @@ Material:
     - m_end_uvPanosphere: 0
     - m_end_uvPolar: 0
     - m_end_vertexManipulation: 0
-    - m_lightingCategory: 0
+    - m_lightingCategory: 1
     - m_mainCategory: 1
     - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 1
-    - m_specialFXCategory: 0
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_Alpha: 0
     - m_start_Aniso: 0
@@ -1457,7 +1472,7 @@ Material:
     - m_start_Decal3: 0
     - m_start_Decal3AudioLink: 0
     - m_start_DecalSection: 0
-    - m_start_DetailOptions: 0
+    - m_start_DetailOptions: 1
     - m_start_DistortionAudioLink: 0
     - m_start_FXProximityColor: 0
     - m_start_FlipbookAudioLink: 0
@@ -1490,7 +1505,7 @@ Material:
     - m_start_emission2Options: 0
     - m_start_emission3Options: 0
     - m_start_emissionOptions: 0
-    - m_start_emissions: 0
+    - m_start_emissions: 1
     - m_start_flipBook: 0
     - m_start_glitter: 0
     - m_start_matcap: 0
@@ -1590,7 +1605,7 @@ Material:
     - _ClearCoatSpecularTint: {r: 1, g: 1, b: 1, a: 1}
     - _ClippingMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _ClothMetallicSmoothnessMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
     - _CubeMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _CubeMapMaskPan: {r: 0, g: 0, b: 0, a: 0}
     - _DecalColor: {r: 1, g: 1, b: 1, a: 1}
