@@ -8,15 +8,15 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Floor 3
-  m_Shader: {fileID: 4800000, guid: c933bce24d9d90747a5def016febd042, type: 3}
-  m_ShaderKeywords: POI_LIGHT_DATA_ADDITIVE_DIRECTIONAL_ENABLE POI_LIGHT_DATA_ADDITIVE_ENABLE
-    POI_VERTEXLIGHT_ON VIGNETTE_MASKED _LIGHTINGMODE_FLAT _RIMSTYLE_POIYOMI
+  m_Shader: {fileID: 4800000, guid: 92bf02b7ff5d9bc49a8947af467dae86, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: 2000
   stringTagMap:
-    RenderType: TransparentCutout
+    OriginalShader: .poiyomi/Poiyomi 8.0/Poiyomi World
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -630,7 +630,7 @@ Material:
     - _CurvFix: 1
     - _CurvatureU: 0
     - _CurvatureV: 0
-    - _Cutoff: 0.5
+    - _Cutoff: 0
     - _DebugAutocorrelator: 0
     - _DebugBass: 0
     - _DebugCCColors: 0
@@ -1015,7 +1015,7 @@ Material:
     - _IridescenceHueShift: 0
     - _IridescenceHueShiftEnabled: 0
     - _IridescenceHueShiftSpeed: 0
-    - _IridescenceIntensity: 1
+    - _IridescenceIntensity: 0.93
     - _IridescenceMaskUV: 0
     - _IridescenceMultiplyBlend: 0
     - _IridescenceNormalIntensity: 1
@@ -1154,7 +1154,7 @@ Material:
     - _MochieSpecularStrength: 1
     - _MochieSpecularStrength2: 1
     - _MochieSpecularTintThemeIndex: 0
-    - _Mode: 1
+    - _Mode: 0
     - _ModelAngleMax: 90
     - _ModelAngleMin: 45
     - _OcclusionStrength: 1
@@ -1281,7 +1281,7 @@ Material:
     - _ScrollingEmission3: 0
     - _Set_HighColorMaskUV: 0
     - _ShadeColor_Step: 0
-    - _ShaderOptimizerEnabled: 0
+    - _ShaderOptimizerEnabled: 1
     - _ShadingEnabled: 1
     - _ShadingShadeMapBlendType: 0
     - _Shadow2ndBlur: 0.3
@@ -1442,9 +1442,9 @@ Material:
     - m_modifierCategory: 0
     - m_postprocessing: 0
     - m_renderingCategory: 1
-    - m_specialFXCategory: 0
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
-    - m_start_Alpha: 0
+    - m_start_Alpha: 1
     - m_start_Aniso: 0
     - m_start_BonusSliders: 0
     - m_start_CubeMap: 0
@@ -1461,11 +1461,11 @@ Material:
     - m_start_DistortionAudioLink: 0
     - m_start_FXProximityColor: 0
     - m_start_FlipbookAudioLink: 0
-    - m_start_GlobalThemes: 0
+    - m_start_GlobalThemes: 1
     - m_start_Iridescence: 0
     - m_start_IridescenceAudioLink: 0
     - m_start_MainHueShift: 0
-    - m_start_MainVertexColors: 0
+    - m_start_MainVertexColors: 1
     - m_start_Matcap2: 0
     - m_start_PathAudioLink: 0
     - m_start_PoiLightData: 0
@@ -1484,7 +1484,7 @@ Material:
     - m_start_brdf: 0
     - m_start_clearCoat: 0
     - m_start_depthFX: 0
-    - m_start_dissolve: 0
+    - m_start_dissolve: 1
     - m_start_dissolveHueShift: 0
     - m_start_emission1Options: 0
     - m_start_emission2Options: 0
