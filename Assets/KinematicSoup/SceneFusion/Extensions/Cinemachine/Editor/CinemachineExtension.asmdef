@@ -1,8 +1,6 @@
 {
     "name": "CinemachineExtension",
-    "references": [
-        "Cinemachine"
-    ],
+    "references": [],
     "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor"
