@@ -43,6 +43,10 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.vrchat.base": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.base#3.0.6",
+    "com.vrchat.worlds": "https://github.com/vrchat/packages.git?path=/packages/com.vrchat.worlds#3.0.6",
+    "com.unity.inputsystem": "1.0.2",
+    "com.vrchat.clientsim": "https://github.com/vrchat-community/ClientSim.git?path=/Packages/com.vrchat.ClientSim#1.1.4"
   }
 }
